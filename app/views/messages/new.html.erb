@@ -1,0 +1,6 @@
+<%= form_with model: @message do |form| %>
+	<%= form.text_field:body, placeholder:"write message here...", class: "form-control mb-3" %>
+	<%= form.select :user_id,User.all.pluck(:id,:email),{prompt:'select'},{class: "form-control"} %>
+	<br>
+	<%= form.submit:Send, class: "mb-3 btn btn-primary" %>
+<% end %>

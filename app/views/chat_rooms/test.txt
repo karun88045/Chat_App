@@ -1,0 +1,10 @@
+
+<!--  <%= image_render %>
+<%= image_render1 %> 
+ <%= javascript_render %>
+<%= javascript_render1 %>
+<%= javascript_render2 %>  -->
+
+<!--  <p class="img">
+	<%= image_tag() %>
+</p> -->

@@ -1,0 +1,5 @@
+<%= form_with url:messages_path, method: :post do |form| %>
+	<%= form.text_field:body, placeholder:"write message here...", class: "form-control mb-3" %>
+	<br>
+	<%= form.submit:Send, class: "mb-3 btn btn-primary" %>
+<% end %>
